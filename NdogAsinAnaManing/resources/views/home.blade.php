@@ -11,8 +11,8 @@
                 background-size: cover; 
                 background-position: center;">
         <div class="text-center text-md-start flex-fill px-3 px-md-5">
-            <h2 class="display-4 fw-bold">Ndog Asin Asli Tegal</h2>
-            <p class="lead mb-4">Lezat & Bergizi, Langsung dari Produsen ke toko Terdekat</p>
+            <h2 class="display-4 fw-bold">Ndog Asin Organik Tegal</h2>
+            <p class="lead mb-4">Ngelenga, Masir, Gurih, Ora Pait, Ora Amis</p>
             <a href="/products" class="btn btn-light btn-lg shadow-sm">Lihat Produk Kami</a>
         </div>
         <div class="flex-fill text-center px-3 px-md-5">
@@ -35,9 +35,11 @@
     <div class="row g-4">
         @php
             $products = [
-                ['name' => 'Telur Asin Original', 'desc' => 'Rasa asli dengan kualitas terbaik.', 'image' => 'images/telur-asin1.jpg'],
-                ['name' => 'Telur Asin Pedas', 'desc' => 'Varian pedas untuk pecinta rasa kuat.', 'image' => 'images/telur-asin-pedas.jpg'],
-                ['name' => 'Telur Asin Kuning', 'desc' => 'Tekstur lembut dengan cita rasa khas.', 'image' => 'images/telur-asin-kuning.jpg'],
+                ['name' => 'Ndog Asin Mentahan', 'desc' => 'Rasa asli dengan kualitas terbaik.', 'image' => 'images/telur-asin1.jpg'],
+                ['name' => 'Ndog Asin Brungus', 'desc' => 'Varian pedas untuk pecinta rasa kuat.', 'image' => 'images/telur-asin-pedas.jpg'],
+                ['name' => 'Ndog Asin Garang', 'desc' => 'Tekstur lembut dengan cita rasa khas.', 'image' => 'images/telur-asin-kuning.jpg'],
+                ['name' => 'Ndog Asin Godog', 'desc' => 'Tekstur lembut dengan cita rasa khas.', 'image' => 'images/telur-asin-kuning.jpg'],
+                ['name' => 'Ndog Asin Garang Wedi', 'desc' => 'Tekstur lembut dengan cita rasa khas.', 'image' => 'images/telur-asin-kuning.jpg'],
             ];
         @endphp
 
