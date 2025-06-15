@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Kontak - Toko Telur Asin Maknyus')
+@section('title', 'Kontak - N'dog Asin Organik Tegal Ana Maning')
 
 @section('content')
 <h2 class="mb-5 text-center" data-aos="fade-down">Hubungi Kami</h2>
@@ -16,17 +16,17 @@
     <!-- Kolom kanan: Informasi Kontak dan WhatsApp -->
     <div class="col-md-6" data-aos="fade-left">
         <h5 class="mb-3">Informasi Kontak</h5>
-        <p><strong>Alamat:</strong> Jl. Raya Brebes No.123, Brebes, Jawa Tengah</p>
+        <p><strong>Alamat:</strong> Jl. Martapura, Pesurungan Lor, Kec. Margadana, Kota Tegal, Jawa Tengah 52147 </p>
         <p><strong>WhatsApp:</strong> 
-            <a href="https://wa.me/6281234567890" target="_blank" class="text-success fw-bold text-decoration-none">
-                +62 812 3456 7890 
+            <a href="https://wa.me/6282229832730" target="_blank" class="text-success fw-bold text-decoration-none">
+                +62 822 2983 2730 
                 <img src="{{ asset('images/whatsapp-icon.png') }}" alt="WhatsApp" width="20" class="ms-1" />
             </a>
         </p>
-        <p><strong>Jam Operasional:</strong> Senin - Sabtu, 08.00 - 17.00 WIB</p>
+        <p><strong>Jam Operasional:</strong> Senin - Minggu, 08.00 - 17.00 WIB</p>
 
         <!-- Tombol WhatsApp CTA -->
-        <a href="https://wa.me/6281234567890" target="_blank" 
+        <a href="https://wa.me/6282229832730" target="_blank" 
            class="btn btn-success btn-lg d-flex align-items-center justify-content-center mt-4" style="gap: 12px; min-width: 280px;">
             <img src="{{ asset('images/whatsapp-icon.png') }}" alt="WhatsApp" width="28" />
             Hubungi Owner via WhatsApp
@@ -50,7 +50,7 @@
     <a href="https://instagram.com/maknyustelurasin" target="_blank" aria-label="Instagram">
         <img src="{{ asset('images/instagram-icon.png') }}" alt="Instagram" width="40" class="shadow-sm rounded" />
     </a>
-    <a href="https://wa.me/6281234567890" target="_blank" aria-label="WhatsApp">
+    <a href="https://wa.me/6282229832730" target="_blank" aria-label="WhatsApp">
         <img src="{{ asset('images/whatsapp-icon.png') }}" alt="WhatsApp" width="40" class="shadow-sm rounded" />
     </a>
 </div>
